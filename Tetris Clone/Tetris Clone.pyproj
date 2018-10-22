@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3313577a-c710-4e86-a669-e53d70d9a03c}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>TetrisClone.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="click_x.wav" />
+    <Content Include="gunshots2_x.wav" />
+    <Content Include="gun_44mag_11.wav" />
+    <Content Include="HighScores.txt" />
+    <Content Include="Highway Slaughter.ogg" />
+    <Content Include="Tetris.ogg" />
+    <Content Include="README.md" />
+    <Content Include="LICENSE.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="button.py" />
+    <Compile Include="graphics.py" />
+    <Compile Include="lhorse.py" />
+    <Compile Include="lknight.py" />
+    <Compile Include="minishapes.py" />
+    <Compile Include="pole.py" />
+    <Compile Include="rhorse.py" />
+    <Compile Include="rknight.py" />
+    <Compile Include="square.py" />
+    <Compile Include="TetrisClone.py" />
+    <Compile Include="tshape.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
