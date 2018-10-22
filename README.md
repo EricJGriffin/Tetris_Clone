@@ -1,16 +1,19 @@
 This is a clone of the game of Tetris. 
 Requirements:
+
 -Python 3.6.X
 -graphics.py
 -pygame
 
 To Play:
+
 1. Clone the project.
 2. Open the 'Tetris Clone' folder.
 3. python TetrisClone.py
 
 Game Insructions:
--'Space' to rotate the pieces
+
+- 'Space' to rotate the pieces
 - 'Left', 'Right' and 'Down' buttons to position the pieces. 
 
 Overview:
